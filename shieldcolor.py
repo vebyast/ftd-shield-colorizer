@@ -11,7 +11,7 @@ parser.add_argument('blueprint',
                     help='''The blueprint file to colorize''',
                     type=str)
 parser.add_argument('--rgba',
-                    help='''New color to set, as a string formatted like 'r,g,b,a'. All four are floats with two digits after the decimal. The three colors are between 0.00 and 1.00 inclusive, and alpha is between 0.10 and 10.00 inclusive''',
+                    help='''New color to set, as a string formatted like 'r,g,b,a'. All four are floats with two digits after the decimal. The three colors are between 0.00 and 1.00 inclusive, and alpha is between 0.10 and 10.00 inclusive. A valid example: "0.62,0.5,0.34,3.34".''',
                     type=str)
 parser.add_argument('--clear',
                     help='''Set all shield alphas to zero''',
